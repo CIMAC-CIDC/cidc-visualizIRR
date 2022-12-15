@@ -148,6 +148,8 @@ for (i in 1:length(myfilelist)){
 names(myplots_withd)<-list.files(path=indir, full.names=FALSE)
 names(mydims_withd)<-list.files(path=indir, full.names=FALSE)
 
+NameList<-list.files(path=indir, full.names=FALSE)
+
 # function to display all correlations and plots.
 # will also write to file
 disp_plots_corr_withd<-function(file1,file2){
